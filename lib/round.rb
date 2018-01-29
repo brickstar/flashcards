@@ -2,12 +2,10 @@ class Round
   attr_reader :deck,
               :guesses
 
-
   def initialize(deck)
     @deck         = deck
     @guesses      = []
     @card_index   = 0
-
   end
 
   def current_card
@@ -29,5 +27,4 @@ class Round
     end
     count
   end
-
 end

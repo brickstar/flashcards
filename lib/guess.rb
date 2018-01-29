@@ -21,7 +21,5 @@ class Guess
     else
       "Incorrect."
     end #return "Correct!" if correct? \n"Incorrect."
-
   end
-
 end

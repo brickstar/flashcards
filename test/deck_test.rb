@@ -22,7 +22,6 @@ class DeckTest < Minitest::Test
   end
 
   def test_deck_has_a_count
-# binding.pry
     assert_equal 3, @deck.count
   end
 end

@@ -6,5 +6,4 @@ class Deck
     @cards = deck
     @count = deck.count
   end
-
 end
